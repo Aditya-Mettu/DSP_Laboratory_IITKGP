@@ -1,4 +1,4 @@
-%Power Spectral Density of sequence x(n) using Welch’s Non Parametric Method
+%Power Spectral Density of sequence x(n) using Welchâ€™s Non Parametric Method
 close all;
 clear all;
 clc;
@@ -65,5 +65,5 @@ for n=1:N_point_dft
 end
 
 plot(-.5:1/N_point_dft:.5-1/N_point_dft,fftshift(abs(P)));
-title('Power Spectral Density of sequence x(n) using Welch’s Non Parametric Method ');
+title('Power Spectral Density of sequence x(n) using Welchâ€™s Non Parametric Method ');
 xlabel('Frequency ------>');ylabel('Power Spectral Density ------>')
